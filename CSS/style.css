@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+header{
+    background-color: #009688;
+    padding:10px 10px 30px 10px;
+    color: white;
+}
+
+.angle-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.left-arrow{
+    float: left;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.right-arrow{
+    float: right;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+table{
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr{
+    border: 1px solid #DDDDDD;
+}
+
+.left-container{
+    width: 66%;
+    clear: both;
+    margin-right: 15px;
+}
+
+th,td{
+    text-align: left;
+    padding: 10px;
+}
+
+th{
+    background-color: #009688;
+    color: #fff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #F1F1F1;
+}
+
+h2{
+    margin: 18px 0;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+h1{
+    font-weight: 450;
+    font-size: 36px;
+}
+
+.left-container, .right-container{
+    float: left;
+}
+
+.right-container{
+    width: 30%;
+}
+
+.right-container p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.right-container h1{
+    margin: 5px 0;
+}
+
+main{
+    width: 98%;
+    margin: 15px auto 0;
+}
+
+/* FOR RESPONSIVE */
+@media screen and (max-width: 768px) {
+    header{
+        padding:10px ;
+    }
+
+    header h1{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .left-container, .right-container{
+        width: 100%;
+    }
+}
